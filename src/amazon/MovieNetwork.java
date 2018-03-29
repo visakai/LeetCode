@@ -11,9 +11,9 @@ package amazon;
  int movieId;.
  float rating;
  List<Movie> similarMovies
- 还有其他的getters.
+ //还有其他的getters.
  }.
- 现在要求找到 k个和movie最相似 的movies。.
+ 现在要求找到 k个和movie最相似的movies。.
  函数的signature大概是这样的：
  public static List<Movie> getNearest(Movie movie, int numSimilar)
 
@@ -33,6 +33,11 @@ package amazon;
 
  update: 应该返回 m5 (只有有一条路径从 m1到 m5, 并且 5是最大的） --> 应该返回 m5 (只要有一条路径从 m1到 m5, 并且 5是最大的）
 
+
+
+ https://yidongzhang.gitbooks.io/-oa-1/content/movie-network.html
+
+
  */
-public class MovieRecommandation {
+public class MovieNetwork {
 }
