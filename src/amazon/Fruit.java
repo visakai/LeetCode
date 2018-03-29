@@ -9,6 +9,8 @@ import java.util.List;
  *https://yidongzhang.gitbooks.io/-oa-1/content/mai-shui-guo.html
  *
  * public static int checkWinner (List<List<String>> codeList, List<String> shoppingCart) {}
+ 给定几个水果的组合，水果的组合和给组合的顺序都需要遵循的，然后客户的购物车里也有买商品的顺序，
+ 然后看客户买的物品清单是否能和给定的组合对上。其中，如果组合中出现了“anything"这个字符串，表示客户可以买任何东西match。
  说的是小明要帮公司买水果，给了一个codeList， 里面装的是target水果，shoppingCart里面装的是他买的水果，
  目标是检查codelist里的水果顺序是否和shoppingCart里的顺序匹配。
  注意的是只有codelist中的所有链表的item之后加起来小于等于shoppingcart里item之和才可能返回1。

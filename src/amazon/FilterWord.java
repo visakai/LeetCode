@@ -15,6 +15,10 @@ Input: This is a sample text. This sample text is just text.
 Exclusion list: {is, a}
 Output: text - 3
 *
+*
+*
+* 是这个题目的简化版http://www.lintcode.com/zh-cn/problem/top-k-frequent-words/
+可行的做法是，把exclude word list放进一个Set中，每次遍历字符串中的单词，然后用一个Map来统计单词出现的次数，最后找到出现最多的即可
 * */
 public class FilterWord {
   public static void main(String[] args){
